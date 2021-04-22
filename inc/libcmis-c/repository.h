@@ -29,10 +29,11 @@
 #define _REPOSITORY_H_
 
 #ifdef __cplusplus
-extern "C" {
-#endif
 
 #include <libxml/tree.h>
+
+extern "C" {
+#endif
 
 #include "libcmis-c/libcmis-c-api.h"
 #include "libcmis-c/types.h"
